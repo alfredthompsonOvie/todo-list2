@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins";
+  font-size: 16px;
+  background-color: #999;
+}
+img {
+  width: 12px;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.todoContainer {
+  width: 400px;
+  min-height: 350px;
+  background-color: #fff;
+  border-radius: 0 20px 0 20px;
+  box-shadow: 0 0 2px 2px #fff, 1px 1px 3px 3px #000;
+}
+.top {
+  width: 100%;
+  height: 190px;
+  border-radius: 0 20px 20px 20px;
+  background-image: url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: 0px 1px 3px #fff, 1px 1px 3px #000;
+}
+.mid form {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.mid form .input {
+  width: 250px;
+  padding: 15px;
+  margin-right: 20px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  box-shadow: 0 0 3px #000;
+}
+.mid form .submit {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 18px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 3px #000;
+}
+.lists {
+  border-radius: 0 20px;
+  background: #fff;
+  margin-top: 15px;
+}
+.mylists {
+  margin: 0;
+  padding: 1px;
+}
+.mylists li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  box-shadow: 0 0 3px #000;
+  outline: none;
+  border: none;
+  border-radius: 0 20px;
+  margin: 0 5px 8px 5px;
+}
+.mylists li:nth-child(even) {
+  background: #999;
+}
